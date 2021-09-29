@@ -13,7 +13,7 @@ import androidx.compose.ui.focus.focusModifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 
-class MainActivity : ComponentActivity() {
+class JetpackBasic : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {

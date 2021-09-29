@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.JetPack_practice">
         <activity
-            android:name=".MainActivity2"
+            android:name="BottomNav"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,7 +19,17 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".Navigation"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".JetPackBasic2"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".JetpackBasic"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.JetPack_practice.NoActionBar">
